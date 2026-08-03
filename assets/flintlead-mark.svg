@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="ember" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF6B2C"/>
+      <stop offset="1" stop-color="#FFB454"/>
+    </linearGradient>
+    <linearGradient id="ember2" x1="1" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#FF6B2C"/>
+      <stop offset="1" stop-color="#FFB454"/>
+    </linearGradient>
+  </defs>
+  <!-- left flint stone, larger, tilted into the strike -->
+  <path fill="url(#ember)" d="M8 76 L34 52 L56 64 L54 96 L22 104 Z"/>
+  <path fill="#000" opacity="0.12" d="M34 52 L56 64 L54 96 Z"/>
+  <!-- right flint stone, smaller, lower -->
+  <path fill="url(#ember2)" d="M108 82 L88 62 L68 70 L70 96 L94 102 Z"/>
+  <path fill="#000" opacity="0.12" d="M88 62 L68 70 L70 96 Z"/>
+  <!-- irregular percussive impact burst at the strike point -->
+  <path fill="#FFB454" transform="translate(1,8)" d="M62 12 L66 28 L76 20 L70 32 L84 36 L70 41 L76 52 L65 45 L62 60 L58 45 L48 52 L53 41 L40 36 L53 31 L47 21 L57 28 Z"/>
+</svg>
